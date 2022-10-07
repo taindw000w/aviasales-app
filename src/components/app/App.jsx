@@ -16,7 +16,6 @@ export const App = () => {
         <TransferOptions />
         <div className={app_classes["wrapper-ticket-filters"]}>
           <Sort />
-          {/* <Spinner /> */}
           <TicketList />
         </div>
       </div>
