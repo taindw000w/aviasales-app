@@ -1,0 +1,28 @@
+.sort-button {
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  flex: 1 1 auto;
+  padding: 15px;
+  outline: none;
+  background-color: #fff;
+  color: #4a4a4a;
+  border: 1px solid #dfe5ec;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+.sort-button--focused {
+  background-color: #2196f3;
+  color: #fff;
+  border: 1px solid #2196f3;
+}
+
+@media (max-width: 768px) {
+  .sort {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+  }
+}

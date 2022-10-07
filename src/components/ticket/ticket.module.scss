@@ -1,0 +1,32 @@
+.ticket {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin: 20px 0px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+  // margin: 20px 50px 20px 20px;
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+.price {
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #2196F3;
+}

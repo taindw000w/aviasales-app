@@ -1,0 +1,44 @@
+html,
+body,
+ul {
+  margin: 0;
+  padding: 0;
+  // background: #E5E5E5;
+  background-color: #f3f7fa;
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  .img-logo {
+    width: 65px;
+    height: 70px;
+    margin: 23px;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    @media (max-width: 768px) {
+      align-items: center;
+      flex-direction: column;
+
+      .wrapper-ticket-filters {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+
+  }
+
+}
